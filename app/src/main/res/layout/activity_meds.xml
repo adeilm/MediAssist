@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/appLogo1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/img" />
+
+        <TextView
+            android:id="@+id/appTitleMedicaments1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medicaments"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/darkModeToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Toggle dark mode"
+            android:src="@drawable/ic_dark_mode"
+            app:layout_constraintBottom_toBottomOf="@id/toolbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+    
+
+
+
+    <!-- RecyclerView pour la liste des médicaments -->
+
+
+    <!-- Message si la liste est vide -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/medsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="579dp"
+        android:layout_above="@+id/bottom_navigation"
+        android:layout_marginBottom="0dp"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/emptyMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aucun médicament ajouté."
+        android:textSize="18sp"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <!-- Bouton flottant pour ajouter un médicament -->
+
+    <!-- Barre de navigation en bas -->
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addMedButton"
+        android:layout_width="172dp"
+        android:layout_height="135dp"
+        android:layout_above="@id/bottom_navigation"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Ajouter médicament"
+        android:src="@drawable/ic_add" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemIconTint="@color/selector_nav_item"
+        app:itemTextColor="@color/selector_nav_item"
+        android:background="@color/white"/>
+</RelativeLayout>
