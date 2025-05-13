@@ -37,7 +37,7 @@ MediAssist est une application mobile développée pour faciliter la gestion des
 
 1. Clonez ce dépôt
    ```
-   git clone https://github.com/yessineabdelmaksoud/MediAssist
+   git clone https://github.com/adeilm/MediAssist/
    ```
 
 2. Ouvrez le projet dans Android Studio
