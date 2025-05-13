@@ -27,38 +27,6 @@ MediAssist est une application mobile développée pour faciliter la gestion des
 - **SQLite**: Base de données locale pour le stockage des informations
 - **Android SDK**: Développement natif Android
 
-## Captures d'écran
-
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-  <img src="capture/IMG-20250501-WA0001.jpg" alt="Écran de démarrage" width="24%"/>
-  <img src="capture/IMG-20250501-WA0002.jpg" alt="Écran de bienvenue" width="24%"/>
-  <img src="capture/IMG-20250501-WA0006.jpg" alt="Connexion" width="24%"/>
-  <img src="capture/IMG-20250501-WA0007.jpg" alt="Inscription" width="24%"/>
-</div>
-
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin-top: 10px;">
-  <img src="capture/IMG-20250501-WA0008.jpg" alt="Accueil" width="24%"/>
-  <img src="capture/IMG-20250501-WA0012.jpg" alt="Profil" width="24%"/>
-  <img src="capture/IMG-20250501-WA0016.jpg" alt="Médicaments" width="24%"/>
-  <img src="capture/IMG-20250501-WA0017.jpg" alt="Ajouter médicament" width="24%"/>
-</div>
-
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin-top: 10px;">
-  <img src="capture/IMG-20250501-WA0025.jpg" alt="Rendez-vous" width="24%"/>
-  <img src="capture/IMG-20250501-WA0024.jpg" alt="Ajouter rendez-vous" width="24%"/>
-  <img src="capture/IMG-20250501-WA0032.jpg" alt="Contacts d'urgence" width="24%"/>
- <img src="capture/IMG-20250501-WA0031.jpg" alt="Contacts d'urgence" width="24%"/>
-
-</div>
-
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; margin-top: 10px;">
-  <img src="capture/IMG-20250501-WA0021.jpg" alt="Notifications" width="24%"/>
-  <img src="capture/IMG-20250501-WA0014.jpg" alt="Chatbot" width="24%"/>
-   <img src="capture/IMG-20250501-WA0028.jpg" alt="Ordonnances" width="24%"/>
-    <img src="capture/IMG-20250501-WA0012.jpg" alt="Chatbot" width="24%"/>
-
- 
-</div>
 
 ## 🎬 Démonstration vidéo
 
